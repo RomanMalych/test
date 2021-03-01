@@ -1,0 +1,20 @@
+.liTask {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: .5rem 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: .5rem;
+}
+
+.title-input {
+  margin-right: 1rem;
+}
+
+.removeTaskBtn {
+  background: darkred;
+  border-radius: 50%;
+  color: aliceblue;
+  border: none;
+}
