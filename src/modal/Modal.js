@@ -17,7 +17,7 @@ export default class Modal extends React.Component {
           <div className="modal">
             <div className="modal-body">
               <h1>Здарова</h1>
-              <p>Леха</p>
+              <p></p>
               <img src="image/mouse.jpg" alt="МЫШ" className="mouse"></img>
 
               <button onClick={() => this.setState({ isOpen: false })}>

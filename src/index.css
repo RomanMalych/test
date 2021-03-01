@@ -24,6 +24,16 @@ code {
   text-decoration: line-through;
 }
 
+form{
+  margin-bottom: 1rem;
+}
+
+.task-todo {
+  list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
 
 
 .lds-dual-ring {

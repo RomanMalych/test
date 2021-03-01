@@ -2,17 +2,11 @@ import React from "react";
 import PropTypes from "prop-types";
 import TodoItem from "./TodoItem";
 
-const styles = {
-  ul: {
-    listStyle: "none",
-    margin: 0,
-    padding: 0,
-  },
-};
+
 
 function TodoList({ todos, onToggle }) {
   return (
-    <ul style={styles.ul}>
+    <ul className="task-todo" >
       {todos.map((todo, index) => {
         return (
           <TodoItem
